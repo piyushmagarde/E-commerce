@@ -6,6 +6,7 @@ const {
   getProduct,
   deleteProduct,
 } = require("../controllers/productsController");
+
 const router = express.Router();
 
 router.route("/product/new").post(createProduct);
